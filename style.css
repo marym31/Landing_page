@@ -1,0 +1,168 @@
+
+*{
+    margin:0;
+    padding:0;
+    font-family: Roboto, sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+.section{
+    height: 100vh;
+}
+
+
+.section.one{
+    background-color:#1f2937;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    gap:50px;
+}
+/* --------- HEADER --------- */
+.header{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.links{
+    display: flex;
+    gap: 1em;
+    list-style: none;
+    padding:0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.logo{
+    font-size: 24px;
+    color:#f9faf8;
+}
+
+/* --------- Hero section -------- */
+
+.hero{
+    display: flex;
+    gap:2em;
+}
+.hero-text{
+    display:flex;
+    flex-direction: column;
+    gap:1em;
+    width: 500px;
+}
+.main-text{
+    font-size: 48px;
+    font-weight:bolder;
+    color:#f9faf8;
+    text-align: left;
+}
+.second-text{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.img-hero{
+    width:400px;
+    height:auto;
+}
+
+button{
+    background-color: #3882f6;
+    padding: 8px 32px;
+    border: 1px solid white;
+    border-radius: 12%;
+    color:#f9faf8;
+    font-size: 18px;
+    align-self: flex-start;
+}
+
+/* ----------  second section ------------*/
+.info{
+    display:flex;
+    justify-content: center;
+    gap: 4em;
+}
+.single-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    margin: 4em 0;
+    gap: 1em;
+}
+h1{
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1f2937;
+    text-align: center;
+    margin-top: 2em;
+}
+.single-info > img{
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+p{text-align: center;}
+
+/* ---------- SECTION THREE -------*/
+
+.section.three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    width: auto;
+    height: 400px;
+}
+
+.content{
+    width: 70%;
+    font-weight:lighter;
+    font-size: 36px;
+    color:#1f2937;
+}
+
+.author{
+    font-size: 20px;
+    font-style: normal;
+    text-align: right;
+}
+
+
+/*----------- SECTION FOUR ---------*/
+
+.section.four{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 70vh;
+}
+.box{
+    width: 1000px;
+    height: 150px;
+    display: flex;
+    gap:200px;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    background-color: #3882f6;
+    color: white;
+    border-radius:2%;
+    margin:75px;
+}
+
+footer > p{
+    background-color: #1f2937;
+    color: white;
+    padding: 40px
+}
